@@ -1,5 +1,5 @@
 {
-  description = "XNM's NixOS Configuration";
+  description = "verity's NixOS Configuration";
 
   inputs = {
       nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -18,7 +18,7 @@
         ./opengl.nix
         # ./fingerprint-scanner.nix
         # ./clamav-scanner.nix
-        ./yubikey.nix
+        #./yubikey.nix
         ./sound.nix
         ./usb.nix
         ./time.nix
@@ -45,7 +45,7 @@
         # ./mac-randomize.nix
         # ./open-ssh.nix
         ./firewall.nix
-        ./dns.nix
+        #./dns.nix
         # ./vpn.nix
         ./users.nix
         ./virtualisation.nix
